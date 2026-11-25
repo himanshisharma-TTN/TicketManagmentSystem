@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TicketManagementApplication {
 
     public static void main(String[] args) {
+        System.out.println("Ticket Management Application : Branch QA_ENV");
         SpringApplication.run(TicketManagementApplication.class, args);
     }
 }
